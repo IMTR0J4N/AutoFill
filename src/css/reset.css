@@ -9,6 +9,11 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 body,
 h1,
 h2,
@@ -32,4 +37,9 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

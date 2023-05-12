@@ -63,9 +63,18 @@ li:hover {
     background-color: lightgray;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
+.disabled:hover { 
+    background-color: white;
+}
+
 input:focus {
     outline: none;
 }
+
 
 hr {
     margin-top: 10px;
